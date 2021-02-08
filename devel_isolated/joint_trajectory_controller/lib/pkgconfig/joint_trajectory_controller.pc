@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/joint_trajectory_controller
+
+Name: joint_trajectory_controller
+Description: Description of joint_trajectory_controller
+Version: 0.18.1
+Cflags: -I/home/akingse/tempopkg_ws/src/ros_controllers/joint_trajectory_controller/include -I/usr/include
+Libs: -L${prefix}/lib -ljoint_trajectory_controller
+Requires: actionlib angles control_msgs control_toolbox controller_interface hardware_interface realtime_tools roscpp trajectory_msgs urdf

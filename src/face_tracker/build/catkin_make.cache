@@ -1,0 +1,2 @@
+face_tracker_control:face_tracker_pkg
+-DCATKIN_DEVEL_PREFIX=/home/akingse/ros_demo/ros_demo_2/devel -DCMAKE_INSTALL_PREFIX=/home/akingse/ros_demo/ros_demo_2/install -G Unix Makefiles

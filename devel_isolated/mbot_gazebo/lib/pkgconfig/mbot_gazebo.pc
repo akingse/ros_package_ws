@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/mbot_gazebo
+
+Name: mbot_gazebo
+Description: Description of mbot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

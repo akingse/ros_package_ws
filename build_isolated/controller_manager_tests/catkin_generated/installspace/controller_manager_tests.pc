@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install_isolated
+
+Name: controller_manager_tests
+Description: Description of controller_manager_tests
+Version: 0.19.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

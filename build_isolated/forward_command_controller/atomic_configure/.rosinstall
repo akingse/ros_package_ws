@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/akingse/tempopkg_ws/devel_isolated/forward_command_controller/setup.sh

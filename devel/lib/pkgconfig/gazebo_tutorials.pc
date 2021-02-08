@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel
+
+Name: gazebo_tutorials
+Description: Description of gazebo_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lgazebo_tutorials
+Requires: roscpp gazebo_ros

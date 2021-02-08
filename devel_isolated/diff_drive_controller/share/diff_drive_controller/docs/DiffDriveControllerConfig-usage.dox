@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="diff_drive_controller" pkg="diff_drive_controller" type="diff_drive_controller">
+  <param name="left_wheel_radius_multiplier" type="double" value="1.0" />
+  <param name="right_wheel_radius_multiplier" type="double" value="1.0" />
+  <param name="wheel_separation_multiplier" type="double" value="1.0" />
+  <param name="publish_rate" type="double" value="50.0" />
+  <param name="enable_odom_tf" type="bool" value="True" />
+</node>
+\endverbatim
+

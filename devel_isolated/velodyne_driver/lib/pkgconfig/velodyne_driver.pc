@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/velodyne_driver
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.6.1
+Cflags: -I/home/akingse/tempopkg_ws/devel_isolated/velodyne_driver/include -I/home/akingse/tempopkg_ws/src/velodyne/velodyne_driver/include
+Libs: -L${prefix}/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

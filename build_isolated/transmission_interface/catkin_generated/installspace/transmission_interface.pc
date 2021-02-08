@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install_isolated
+
+Name: transmission_interface
+Description: Description of transmission_interface
+Version: 0.19.4
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -ltransmission_interface_parser -ltransmission_interface_loader -ltransmission_interface_loader_plugins /usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: hardware_interface pluginlib roscpp

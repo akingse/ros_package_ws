@@ -1,0 +1,8 @@
+prefix=/home/akingse/ros_demo/ros_demo_2/devel
+
+Name: face_tracker_control
+Description: Description of face_tracker_control
+Version: 0.0.0
+Cflags: -I/home/akingse/ros_demo/ros_demo_2/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime dynamixel_controllers roscpp rospy std_msgs

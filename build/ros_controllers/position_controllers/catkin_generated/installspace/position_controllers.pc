@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install
+
+Name: position_controllers
+Description: Description of position_controllers
+Version: 0.18.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lposition_controllers
+Requires: forward_command_controller hardware_interface

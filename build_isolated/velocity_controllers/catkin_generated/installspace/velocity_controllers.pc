@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install_isolated
+
+Name: velocity_controllers
+Description: Description of velocity_controllers
+Version: 0.18.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvelocity_controllers
+Requires: control_msgs control_toolbox controller_interface forward_command_controller hardware_interface realtime_tools std_msgs urdf

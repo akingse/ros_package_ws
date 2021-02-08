@@ -1,0 +1,8 @@
+prefix=/home/apengse/APengse/Ros/ros_demo_2/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/apengse/APengse/Ros/ros_demo_2/src/usb_cam/include
+Libs: -L/home/apengse/APengse/Ros/ros_demo_2/devel/lib -lusb_cam
+Requires: 

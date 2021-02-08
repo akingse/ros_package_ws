@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install
+
+Name: diff_drive_controller
+Description: Description of diff_drive_controller
+Version: 0.18.1
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -ldiff_drive_controller
+Requires: controller_interface control_msgs dynamic_reconfigure geometry_msgs hardware_interface nav_msgs realtime_tools tf

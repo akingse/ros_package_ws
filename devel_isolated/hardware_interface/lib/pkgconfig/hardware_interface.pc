@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/hardware_interface
+
+Name: hardware_interface
+Description: Description of hardware_interface
+Version: 0.19.4
+Cflags: -I/home/akingse/tempopkg_ws/src/ros_control/hardware_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

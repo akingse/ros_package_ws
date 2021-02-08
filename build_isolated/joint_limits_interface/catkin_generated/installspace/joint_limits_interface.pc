@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install_isolated
+
+Name: joint_limits_interface
+Description: Description of joint_limits_interface
+Version: 0.19.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: hardware_interface roscpp urdf

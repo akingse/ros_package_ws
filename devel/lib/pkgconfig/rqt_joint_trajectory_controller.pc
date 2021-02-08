@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel
+
+Name: rqt_joint_trajectory_controller
+Description: Description of rqt_joint_trajectory_controller
+Version: 0.18.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

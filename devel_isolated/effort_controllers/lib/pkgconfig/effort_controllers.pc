@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/effort_controllers
+
+Name: effort_controllers
+Description: Description of effort_controllers
+Version: 0.18.1
+Cflags: -I/home/akingse/tempopkg_ws/src/ros_controllers/effort_controllers/include
+Libs: -L${prefix}/lib -leffort_controllers
+Requires: control_msgs control_toolbox controller_interface forward_command_controller hardware_interface realtime_tools std_msgs urdf

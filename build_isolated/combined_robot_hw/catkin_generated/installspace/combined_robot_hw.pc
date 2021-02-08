@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install_isolated
+
+Name: combined_robot_hw
+Description: Description of combined_robot_hw
+Version: 0.19.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcombined_robot_hw
+Requires: hardware_interface pluginlib roscpp

@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install
+
+Name: four_wheel_steering_controller
+Description: Description of four_wheel_steering_controller
+Version: 0.18.1
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lfour_wheel_steering_controller
+Requires: controller_interface four_wheel_steering_msgs hardware_interface nav_msgs realtime_tools roscpp tf

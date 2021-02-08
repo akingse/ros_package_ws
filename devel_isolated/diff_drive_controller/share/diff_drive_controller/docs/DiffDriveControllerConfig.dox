@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~left_wheel_radius_multiplier" : \b [double] Left wheel radius multiplier. min: 0.5, default: 1.0, max: 1.5
+- \b "~right_wheel_radius_multiplier" : \b [double] Right wheel radius multiplier. min: 0.5, default: 1.0, max: 1.5
+- \b "~wheel_separation_multiplier" : \b [double] Wheel separation multiplier. min: 0.5, default: 1.0, max: 1.5
+- \b "~publish_rate" : \b [double] Publish rate of odom. min: 0.0, default: 50.0, max: 2000.0
+- \b "~enable_odom_tf" : \b [bool] Publish odom frame to tf. min: False, default: True, max: True
+

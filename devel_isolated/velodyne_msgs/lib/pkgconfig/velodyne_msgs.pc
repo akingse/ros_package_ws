@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/velodyne_msgs
+
+Name: velodyne_msgs
+Description: Description of velodyne_msgs
+Version: 1.6.1
+Cflags: -I/home/akingse/tempopkg_ws/devel_isolated/velodyne_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

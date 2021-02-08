@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/force_torque_sensor_controller
+
+Name: force_torque_sensor_controller
+Description: Description of force_torque_sensor_controller
+Version: 0.18.1
+Cflags: -I/home/akingse/tempopkg_ws/src/ros_controllers/force_torque_sensor_controller/include
+Libs: -L${prefix}/lib -lforce_torque_sensor_controller
+Requires: controller_interface geometry_msgs hardware_interface realtime_tools roscpp

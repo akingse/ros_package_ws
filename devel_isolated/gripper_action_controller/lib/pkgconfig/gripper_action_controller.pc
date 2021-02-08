@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel_isolated/gripper_action_controller
+
+Name: gripper_action_controller
+Description: Description of gripper_action_controller
+Version: 0.18.1
+Cflags: -I/home/akingse/tempopkg_ws/src/ros_controllers/gripper_action_controller/include
+Libs: -L${prefix}/lib -lgripper_action_controller
+Requires: actionlib control_msgs control_toolbox controller_interface hardware_interface realtime_tools roscpp urdf

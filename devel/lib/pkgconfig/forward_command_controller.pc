@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel
+
+Name: forward_command_controller
+Description: Description of forward_command_controller
+Version: 0.18.1
+Cflags: -I/home/akingse/tempopkg_ws/src/ros_controllers/forward_command_controller/include
+Libs: -L${prefix}/lib 
+Requires: controller_interface hardware_interface realtime_tools roscpp std_msgs

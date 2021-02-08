@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/devel
+
+Name: ackermann_steering_controller
+Description: Description of ackermann_steering_controller
+Version: 0.18.1
+Cflags: 
+Libs: -L${prefix}/lib -lackermann_steering_controller
+Requires: controller_interface diff_drive_controller hardware_interface nav_msgs realtime_tools roscpp tf

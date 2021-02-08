@@ -1,0 +1,8 @@
+prefix=/home/akingse/tempopkg_ws/install_isolated
+
+Name: joint_state_controller
+Description: Description of joint_state_controller
+Version: 0.18.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ljoint_state_controller
+Requires: controller_interface hardware_interface realtime_tools roscpp sensor_msgs
